@@ -1,0 +1,26 @@
+*{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+.container {
+
+    border-radius: 38px;
+    background-color: #000000;
+    padding: 50px;
+    justify-content: center;
+
+}
+
+#text-area {
+
+    color: white;
+    text-align: left;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 16px;
+    font-size: 60px
+}
