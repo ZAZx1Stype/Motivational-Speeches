@@ -13,7 +13,13 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #c5c5c5;
+    color: #fff;
+    text-shadow:
+        -2px -2px 0 #000000,  /* top left */
+        2px -2px 0 #000000,   /* top right */
+        -2px 2px 0 #000000,   /* bottom left */
+        2px 2px 0 #000000;    /* bottom right */
+}
 }
 
 #text-area {
