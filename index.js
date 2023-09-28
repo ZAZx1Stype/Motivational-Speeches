@@ -55,6 +55,25 @@ const MotivationSpeech=["The temporary satisfaction of quitting is outweighed by
 
     "A man without a vision for his future always returns to his past.",
     ];
+// Array of image paths
+const images = [
+    './Backgrounds/3.jpg',
+    './Backgrounds/1.webp',
+    './Backgrounds/1.jpg',
+    './Backgrounds/4.jpg',
+    './Backgrounds/5.jpg',
+    './Backgrounds/6.jpg',
+    './Backgrounds/7.jpg',
+    './Backgrounds/9.webp',
+    './Backgrounds/11.jpg',
+    // Add paths to all your images
+];
+
+// Pick a random image from the array
+const randomImage = images[Math.floor(Math.random() * images.length)];
+
+// Set the random image as the background of the .container element
+document.querySelector('.container').style.backgroundImage = `url(${randomImage})`;
 
 function getRandomSpeech() {
     const index = Math.floor(Math.random() * MotivationSpeech.length);
