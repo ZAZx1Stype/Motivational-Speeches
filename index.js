@@ -57,15 +57,15 @@ const MotivationSpeech=["The temporary satisfaction of quitting is outweighed by
     ];
 // Array of image paths
 const images = [
-    './Backgrounds/3.jpg',
-    './Backgrounds/1.webp',
-    './Backgrounds/1.jpg',
-    './Backgrounds/4.jpg',
-    './Backgrounds/5.jpg',
-    './Backgrounds/6.jpg',
-    './Backgrounds/7.jpg',
-    './Backgrounds/9.webp',
-    './Backgrounds/11.jpg',
+    './3.jpg',
+    './1.webp',
+    './1.jpg',
+    './4.jpg',
+    './5.jpg',
+    './6.jpg',
+    './7.jpg',
+    './9.webp',
+    './11.jpg',
     // Add paths to all your images
 ];
 
